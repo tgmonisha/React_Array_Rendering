@@ -4,7 +4,7 @@ body {
 }
 
 .recipe-container {
-  background: white; /* White background for the body */
+  background: #f3e5f5; /* Light purple background */
   border-radius: 18px;
   box-shadow: 0 12px 30px rgba(252, 182, 159, 0.3);
   width: 400px;
@@ -22,7 +22,7 @@ body {
 }  
 
 .recipe-header {
-  background: linear-gradient(135deg, red, orange); /* Red → Orange gradient */
+  background: linear-gradient(135deg, #00d4ff, #0099cc); /* Cyan → Blue gradient */
   color: white;
   padding: 1.5rem;
   text-align: center;
@@ -46,19 +46,25 @@ body {
 .recipe-details p {
   color: #2d3748;
   margin: 0.6rem 0;
-  font-size: 1rem;
-  text-indent: 33px;
-  margin-left: 1.2rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  background-color: #bc7fb8;
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 1px solid #f8bbd9;
+  display: inline-block;
+  margin-left: 0;
+  text-indent: 0;
 }
 
 .recipe-footer {
-  background: #a0d7e586;
+  background: #b3e5fc;
   padding: 1rem;
   text-align: center;
 }
 
 .recipe-footer small {
-  color: #4a6768;
+  color: #ff6600;
   font-style: italic;
 }
 
@@ -77,9 +83,9 @@ body {
   gap: 10px;
 }
 .mainHead{
-  color: darkblue;
+  color: #e91e63;
   text-align: center;
-  background-color: bisque;
+  background-color: #e6e6fa;
   height: 50px;
   font-weight: 800;
   font-size: xx-large;
