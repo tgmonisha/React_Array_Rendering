@@ -1,12 +1,50 @@
-# React + Vite
+#  React Array Rendering – Recipe Menu Cards
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is part of my **React learning journey**, where I practiced **array rendering** using the `.map()` function.  
+The project dynamically displays recipe menu cards based on an array of data, making the UI scalable and reusable.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- ✅ Renders multiple recipe cards using **array `.map()`**
+- ✅ Clean and reusable component design
+- ✅ Beginner-friendly React concept implementation
+- ✅ Easy to extend with more recipes
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🖼️ Project Screenshot
+For Example here’s how it looks:
+
+![Recipe Menu Cards](./array_rendering.png)
+
+---
+
+## 🛠️ Tech Stack
+- **React** (Vite)
+- **JavaScript**
+- **CSS3** (Flexbox/Grid for layout)
+
+---
+
+## 📌 Future Enhancements
+- Add images of recipes on each card
+- Show nutritional info & calories
+- Search & filter recipes
+
+---
+
+## 📂 Project Setup
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/tgmonisha/React_Array_Rendering.git
+   cd React_Array_Rendering
+
+2. Install Dependencies:
+   
+   npm install
+4. Run the Project:
+   
+   npm run dev   
+
+   
